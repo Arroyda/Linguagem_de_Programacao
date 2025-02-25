@@ -1,0 +1,19 @@
+#textoPrincipal {
+    background-color: rgb(224, 224, 224);
+    color: black;
+    max-width: 800px;
+    border-radius: 50px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#textoSecundario {
+    background-color: rgb(224, 224, 224);
+    color: black;
+    max-width: 400px;
+    border-radius: 50px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
