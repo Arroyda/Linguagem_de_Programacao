@@ -1,0 +1,59 @@
+#TextoCatalogo {
+    background-color: rgb(224, 224, 224);
+    color: black;
+    max-width: 350px;
+    border-radius: 50px;
+    margin-top: 50px;
+    font-size: 30px;
+
+}
+
+#tabela{
+    background-color: rgb(245, 244, 244);
+    border-radius: 30px;
+    width: 900px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+
+#valor {
+    color: green;
+}
+
+#fotoMouse {
+    width: 100px;
+    height: 100px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+#botao {
+    border-radius: 10px;
+    font-size: 15px;
+    background: red;
+    color: white;
+}
+
+ul2 {
+    list-style-type: none;
+    padding: 0; /* Remove o espaçamento interno */
+}
+
+li {
+    margin: 10px 0; /* Espaçamento entre os itens da lista */
+}
+
+#liAv {
+    margin-top: 50px;
+}
+
+#star {
+    width: 25px;
+    height: 25px;
+}
