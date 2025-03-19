@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Aluno, Pai e Mãe</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/Exercicio04_Formulario_WEB/Tarefa01/CSS/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <form action="https://67da144935c87309f52adcf7.mockapi.io/alunos" method="POST">
+    <!-- Formulário do Aluno -->
+    <h2>Cadastro de Aluno</h2>
+    <form id="formAluno">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="emailAluno" name="email" placeholder="Email" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" id="nomeAluno" name="nome" placeholder="Nome do Aluno" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" class="form-control" id="sobrenomeAluno" name="sobrenome" placeholder="Sobrenome do Aluno" required>
+      </div>
+
+      <div class="form-group">
+        <label for="cor">Cor</label>
+        <select id="corAluno" class="form-control" name="cor" required>
+          <option value="Branca">Branca</option>
+          <option value="Preta">Preta</option>
+          <option value="Parda">Parda</option>
+          <option value="Amarela">Amarela</option>
+          <option value="Indígena">Indígena</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="telefone">Telefone</label>
+        <input type="tel" class="form-control" id="telefoneAluno" name="telefone" placeholder="Telefone Fixo">
+      </div>
+
+      <div class="form-group">
+        <label for="celular">Celular</label>
+        <input type="tel" class="form-control" id="celularAluno" name="celular" placeholder="Celular" required>
+      </div>
+
+      <div class="form-group">
+        <label for="endereco">Endereço</label>
+        <input type="text" class="form-control" id="enderecoAluno" name="endereco" placeholder="Endereço Completo" required>
+      </div>
+
+      <div class="form-group">
+        <label for="complemento">Complemento</label>
+        <input type="text" class="form-control" id="complementoAluno" name="complemento" placeholder="Complemento do Endereço">
+      </div>
+
+      <div class="form-group">
+        <label for="cidade">Cidade</label>
+        <input type="text" class="form-control" id="cidadeAluno" name="cidade" placeholder="Cidade" required>
+      </div>
+
+      <div class="form-group">
+        <label for="estado">Estado</label>
+        <select id="estado" class="form-control" name="estado" required>
+          <option value="SP">São Paulo</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="PR">Paraná</option>
+          <option value="RS">Rio Grande do Sul</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="cepAluno">CEP</label>
+        <input type="text" class="form-control" id="cepAluno" name="cep" placeholder="CEP" required>
+      </div>
+
+    </form>
+
+    <!-- Formulário do Pai -->
+    <form id="formPai">
+      <h2>Cadastro de Pai</h2>
+      <div class="form-group">
+        <label for="emailPai">Email</label>
+        <input type="email" class="form-control" id="emailPai" name="email" placeholder="Email do Pai" required>
+      </div>
+
+      <div class="form-group">
+        <label for="nomePai">Nome</label>
+        <input type="text" class="form-control" id="nomePai" name="nome" placeholder="Nome do Pai" required>
+      </div>
+
+      <div class="form-group">
+        <label for="sobrenomePai">Sobrenome</label>
+        <input type="text" class="form-control" id="sobrenomePai" name="sobrenome" placeholder="Sobrenome do Pai" required>
+      </div>
+
+      <div class="form-group">
+        <label for="corPai">Cor</label>
+        <select id="corPai" class="form-control" name="cor" required>
+          <option value="Branca">Branca</option>
+          <option value="Preta">Preta</option>
+          <option value="Parda">Parda</option>
+          <option value="Amarela">Amarela</option>
+          <option value="Indígena">Indígena</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="dataNascimentoPai">Data de Nascimento</label>
+        <input type="date" class="form-control" id="dataNascimentoPai" name="dataNascimento" required>
+      </div>
+
+      <div class="form-group">
+        <label for="profissaoPai">Profissão</label>
+        <input type="text" class="form-control" id="profissaoPai" name="profissao" placeholder="Profissão do Pai" required>
+      </div>
+
+      <div class="form-group">
+        <label for="celularPai">Celular</label>
+        <input type="tel" class="form-control" id="celularPai" name="celular" placeholder="Celular do Pai" required>
+      </div>
+
+      <div class="form-group">
+        <label for="cpfPai">CPF</label>
+        <input type="text" class="form-control" id="cpfPai" name="cpf" placeholder="CPF do Pai" required>
+      </div>
+      <div class="form-group col-md-2">
+        <label for="inputEstado">Responsável Financeiro</label>
+        <select id="responsavelFinanceiroMae" class="form-control" name="responsavelFinanceiro">
+          <option selected>Escolher...</option>
+          <option>Sim</option>
+          <option>Não</option>
+        </select>
+      </div>
+      
+
+    </form>
+
+    <!-- Formulário da Mãe -->
+    <form id="formMae">
+      <h2>Cadastro de Mãe</h2>
+      <div class="form-group">
+        <label for="emailMae">Email</label>
+        <input type="email" class="form-control" id="emailMae" name="email" placeholder="Email da Mãe" required>
+      </div>
+
+      <div class="form-group">
+        <label for="nomeMae">Nome</label>
+        <input type="text" class="form-control" id="nomeMae" name="nome" placeholder="Nome da Mãe" required>
+      </div>
+
+      <div class="form-group">
+        <label for="sobrenomeMae">Sobrenome</label>
+        <input type="text" class="form-control" id="sobrenomeMae" name="sobrenome" placeholder="Sobrenome da Mãe" required>
+      </div>
+
+      <div class="form-group">
+        <label for="corMae">Cor</label>
+        <select id="corMae" class="form-control" name="cor" required>
+          <option value="Branca">Branca</option>
+          <option value="Preta">Preta</option>
+          <option value="Parda">Parda</option>
+          <option value="Amarela">Amarela</option>
+          <option value="Indígena">Indígena</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="dataNascimentoMae">Data de Nascimento</label>
+        <input type="date" class="form-control" id="dataNascimentoMae" name="dataNascimento" required>
+      </div>
+
+      <div class="form-group">
+        <label for="profissaoMae">Profissão</label>
+        <input type="text" class="form-control" id="profissaoMae" name="profissao" placeholder="Profissão da Mãe" required>
+      </div>
+
+      <div class="form-group">
+        <label for="celularMae">Celular</label>
+        <input type="tel" class="form-control" id="celularMae" name="celular" placeholder="Celular da Mãe" required>
+      </div>
+
+      <div class="form-group">
+        <label for="cpfMae">CPF</label>
+        <input type="text" class="form-control" id="cpfMae" name="cpf" placeholder="CPF da Mãe" required>
+      </div>
+      <div class="form-group col-md-2">
+        <label for="inputEstado">Responsável Financeiro</label>
+        <select id="responsavelFinanceiroMae" class="form-control" name="responsavelFinanceiro">
+          <option selected>Escolher...</option>
+          <option>Sim</option>
+          <option>Não</option>
+        </select>
+      </div>
+    </form>
+
+    <form id="formCursoPag">
+      <h2>Curso e Forma de Pagamento</h2>
+      <div class="form-group">
+        <label for="nome_curso">Curso</label>
+        <select id="nome_curso" class="form-control" name="cor" required>
+          <option>Escolher...</option>
+          <option value="Analise e Desenvolvimento de Sistemas">Analise e Desenvolvimento de Sistemas</option>
+          <option value="Gestão de T.I">Gestão de T.I</option>
+        </select>
+        <label for="data_ingresso">Data de Ingresso</label>
+        <input type="date" class="form-control" id="data_ingresso" name="data_ingresso" required>
+
+        <label for="valor">Mensalidade</label>
+        <select id="valor" class="form-control" name="cor" required>
+          <option>Escolher...</option>
+          <option value="1000">R$ 1.000,00 (EAD)</option>
+          <option value="1850">R$ 1.850,00 (Presencial)</option>
+        </select>
+        
+        <label for="forma_pag">Forma Pagamento</label>
+        <select id="forma_pag" class="form-control" name="cor" required>
+          <option>Escolher...</option>
+          <option value="Boleto">Boleto</option>
+          <option value="Crédito">Cartão Crédito</option>
+        </select>
+
+        <label for="parcelas">Quantas Parcelas</label>
+        <select id="parcelas" class="form-control" name="cor" required>
+          <option>Escolher...</option>
+          <option value="1">1x</option>
+          <option value="2">2x</option>
+          <option value="3">3x</option>
+          <option value="4">4x</option>
+          <option value="5">5x</option>
+          <option value="6">6x</option>
+          <option value="7">7x</option>
+          <option value="8">8x</option>
+          <option value="9">9x</option>
+          <option value="10">10x</option>
+          <option value="11">11x</option>
+          <option value="12">12x</option>
+        </select>
+      </div>
+      
+    <button type="submit" class="btn btn-primary mt-4">Cadastrar Todos</button>
+    </form>
+
+  </form>
+</body>
+</html>
