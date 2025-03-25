@@ -1,0 +1,30 @@
+body {
+    margin: 50px 200px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(144, 94, 94);
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1:hover {
+    background-color: black;
+    color: white;
+}
+
+p, li {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+ol {    
+    text-align: justify;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
