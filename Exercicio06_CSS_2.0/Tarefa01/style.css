@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.divLat {
+    width: 20%;
+    height: 100vh;
+    background-color: blue;
+    color: white;
+    float: left;
+    z-index: 900;    
+}
+
+.divLat a {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin: 10px 0px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.Centro{
+    width: 80%;
+    height: 100vh;
+    background-color: rgb(171, 171, 227);
+    float: right;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Centro h2, h5 {
+    justify-content: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.Centro h5 {
+    font-size: 15px;
+}
+
+.Centro h2 {
+    font-size: 30px;
+}
