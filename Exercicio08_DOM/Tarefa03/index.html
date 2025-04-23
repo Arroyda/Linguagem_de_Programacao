@@ -10,8 +10,14 @@
 </head>
 <body>
     <div>
-        <div id="display">01:00</div>
-        <button type="submit" class="btn btn-primary mt-3" onclick="addSegundo()">Adicionar</button>
+        <!-- Exibe o número -->
+        <p>Contador: <span id="contador">0</span></p>
+
+        <!-- Botão para incrementar o contador -->
+        <button type="submit" class="btn btn-primary mt-3" onclick="incrementarContador()">Adicionar</button>
+
+        <!-- Botão para resetar o contador -->
+        <button type="submit" class="btn btn-danger mt-3" onclick="resetarContador()">Resetar</button>
     </div>
 </body>
 </html>

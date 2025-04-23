@@ -1,36 +1,27 @@
-let tempoRestante = 60; // 60 segundos
-    let intervalo;
+// script.js
 
-    function formatarTempo(segundos) {
-      const min = Math.floor(segundos / 60);
-      const seg = segundos % 60;
-      return `${min.toString().padStart(2, '0')}:${seg.toString().padStart(2, '0')}`;
-    }
+// Função para incrementar o contador
+function incrementarContador() {
+  // Obtém o elemento com id "contador"
+  const contadorElement = document.getElementById('contador');
+  
+  // Obtém o valor atual do contador, converte para número e soma 1
+  let contador = parseInt(contadorElement.textContent);
+  contador += 1;  // Incrementa 1
+  
+  // Atualiza o conteúdo do contador na tela
+  contadorElement.textContent = contador;
+}
 
-    function atualizarDisplay() {
-      document.getElementById('display').textContent = formatarTempo(tempoRestante);
-    }
-
-    function iniciarCronometro() {
-      intervalo = setInterval(() => {
-        if (tempoRestante > 0) {
-          tempoRestante--;
-          atualizarDisplay();
-        } else {
-          clearInterval(intervalo);
-          document.getElementById('fim').textContent = "⏰ Tempo esgotado!";
-        }
-      }, 1000);
-    }
-
-    function addSegundo() {
-      if (tempoRestante > 0) {
-        tempoRestante+= 1;
-        atualizarDisplay();
-        document.getElementById('fim').textContent = ""; // limpa mensagem de tempo esgotado se estiver lá
-      }
-    }
-
-    // Inicia o cronômetro ao carregar a página
-    atualizarDisplay();
-    iniciarCronometro();
+// Função para resetar o contador
+function resetarContador() {
+  // Obtém o elemento com id "contador"
+  const contadorElement = document.getElementById('contador');
+  
+  // Obtém o valor atual do contador, converte para número e soma 1
+  let contador = parseInt(contadorElement.textContent);
+  contador = 0;  // Incrementa 1
+  
+  // Atualiza o conteúdo do contador na tela
+  contadorElement.textContent = contador;
+}
