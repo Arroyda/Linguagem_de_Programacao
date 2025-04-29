@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova 01</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <center>
+        <form id="formCadFunc">
+            <h2>Dados Pessoais:</h2>
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Joâo Batata" required>
+            </div>
+            <div class="form-group">
+                <label for="tel">Telefone:</label>
+                <input type="number" class="form-control" id="tel" name="tel" placeholder="11 99999-9999" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="joaobatata@gmail.com"
+                    required>
+            </div>
+            <div class="form-group">
+                <label for="cpf">CPF:</label>
+                <input type="number" class="form-control" id="cpf" name="cpf" placeholder="123.456.789-00" required>
+            </div>
+            <div class="form-group">
+                <label for="rg">RG:</label>
+                <input type="number" class="form-control" id="rg" name="rg" placeholder="12.345.678-90" required>
+            </div>
+
+            <h2>Cargo:</h2>
+            <label for="cargo">Cargo:</label>
+            <select id="cargo" class="form-control" name="cargo" required>
+                <option>Selecione...</option>
+                <option value="Analista de Sistemas">Analista de Sistemas</option>
+                <option value="Assistente Administrativo">Assistente Administrativo</option>
+                <option value="Secretário">Secretário</option>
+                <option value="Gerente de Vendas">Gerente de Vendas</option>
+                <option value="Analista de Marketing">Analista de Marketing</option>
+            </select>
+            <div class="form-group">
+                <label for="salario">Salário:</label>
+                <label type="number" class="form-control" id="salario" name="salario"
+                    placeholder="Preenchimento Automatico" required>Preenchimento Automatico</label>
+            </div>
+
+            <h2>Setor:</h2>
+            <label for="nomeSetor">Nome:</label>
+            <select id="nomeSetor" class="form-control" name="nomeSetor" required>
+                <option>Selecione...</option>
+                <option value="Tecnologia da Informação">Tecnologia da Informação</option>
+                <option value="Recursos Humanos">Recursos Humanos</option>
+                <option value="Financeiro">Financeiro</option>
+                <option value="Marketing e Vendas">Marketing e Vendas</option>
+                <option value="Produção e Operações">Produção e Operações</option>
+            </select>
+            <div class="form-group">
+                <label for="sigla">Sigla:</label>
+                <label type="text" class="form-control" id="sigla" name="sigla" placeholder="Preenchimento Automatico"
+                    required>Preenchimento Automatico</label>
+            </div>
+
+            <h2>Convênio:</h2>
+            <label for="nomeConv">Nome:</label>
+            <select id="Conv" class="form-control" name="nomeConv" required>
+                <option>Selecione...</option>
+                <option value="UNIMED">UNIMED</option>
+                <option value="Intermédica">Intermédica</option>
+            </select>
+            <div class="form-group">
+                <label for="valTitular">Valor Titular:</label>
+                <label type="number" class="form-control" id="valTitular" name="valTitular"
+                    placeholder="Preenchimento Automatico" required>Preenchimento Automatico</label>
+            </div>
+            <div class="form-group">
+                <label for="valDependente">Valor Dependente:</label>
+                <label type="number" class="form-control" id="valDependente" name="valDependente"
+                    placeholder="Preenchimento Automatico" required>Preenchimento Automatico</label>
+            </div>
+            <button class="btn btn-primary mt-3" type="submit">Cadastrar</button>
+        </form>
+        <center>
+
+</body>
+
+</html>
