@@ -3,27 +3,28 @@
     padding-right: 30px;
     display: flex;
     text-align: right;
-    
+    background-color: white;
+
     .texto {
         color: black;
         text-decoration: none;
-        justify-content: right;
-        text-align: right;
-        justify-items: right;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
 
     }
+
     .login-avatar {
-        
+        a {
+            padding-left: 50px;
+        }
+
         img {
             width: 50px;
             height: 50px;
         }
     }
 }
-
-
-
-
 
 /* CSS Tela LOGIN */
 /* Estilos gerais da página de login */
@@ -125,4 +126,28 @@ body.login-page {
     font-size: 0.8em;
     margin-top: 5px;
     display: none;
+}
+
+.main-page {
+
+    .row {
+        padding: 30px;
+        justify-self: center;
+
+    }
+
+    .card {
+        width: 500px;
+        height: 400px;
+
+        img {
+            width: 500px;
+            height: 450px;
+        }
+
+        button {
+            width: 100px;
+            height: 100px;
+        }
+    }
 }
