@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script_pages.js"></script>
+    </head>
+    <body class="login-page">
+        <div class="login-container">
+            <form class="login" onsubmit="return validarFormulario()">
+                <div class="avatar">
+                    <img src="https://img.icons8.com/ios-filled/100/user.png"
+                        alt="Logo">
+                </div>
+
+                <label for="email">E-Mail</label>
+                <input type="text" id="email" name="email"
+                    placeholder="seuemail@gmail.com" required>
+                <span id="emailError" class="error"></span>
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha"
+                    placeholder="Digite sua Senha" required>
+                <span id="senhaError" class="error"></span>
+
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+
+    </body>
+    <div id="footer-container-login"></div>
+</html>

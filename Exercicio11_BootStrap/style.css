@@ -1,0 +1,128 @@
+.navbar {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    text-align: right;
+    
+    .texto {
+        color: black;
+        text-decoration: none;
+        justify-content: right;
+        text-align: right;
+        justify-items: right;
+
+    }
+    .login-avatar {
+        
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
+
+
+
+
+
+/* CSS Tela LOGIN */
+/* Estilos gerais da página de login */
+.container-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+body.login-page {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    /* Cor de fundo da página */
+}
+
+/* Container principal centralizado */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* CSS Tela LOGIN */
+.login {
+    background-color: #49494d;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 0 85px rgba(0, 0, 0, 0.829);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    /* Espaço acima e abaixo */
+}
+
+.login .avatar {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.login label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-self: flex-start;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    width: 100%;
+}
+
+.login input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.login button {
+    width: 50%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.login button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+    display: none;
+}
