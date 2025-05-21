@@ -1,0 +1,538 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-header {
+    border-bottom: 1px solid #ccc;
+}
+
+.top-bar,
+.bottom-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.foto-login {
+    width: 40px;
+    height: 40px;
+}
+
+.logo {
+    height: 60px;
+}
+
+.top-nav,
+.bottom-nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.top-nav a,
+.bottom-nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.bottom-nav {
+    flex: 1;
+    justify-content: center;
+}
+
+/* CSS Tela LOGIN */
+/* Estilos gerais da página de login */
+.container-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+body.login-page {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    /* Cor de fundo da página */
+}
+
+/* Container principal centralizado */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* CSS Tela LOGIN */
+.login {
+    background-color: #49494d;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 0 85px rgba(0, 0, 0, 0.829);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    /* Espaço acima e abaixo */
+}
+
+.login .avatar {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.login label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-self: flex-start;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    width: 100%;
+}
+
+.login input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.login button {
+    width: 50%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.login button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+    display: none;
+}
+
+.main-page {
+
+    .row {
+        padding: 30px;
+        justify-self: center;
+    }
+
+    .card {
+        width: 500px;
+        height: 400px;
+
+        img {
+            width: 500px;
+            height: 450px;
+        }
+
+        button {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
+
+#botoes1 {
+    img {
+        width: 330px;
+        height: 70px;
+        border-radius: 10px;
+    }
+}
+
+/* Footer */
+/* footer */
+.menuBaixo {
+    bottom: 0;
+    width: 100%;
+    background: #9e9d9d;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+    z-index: 999;
+    position: relative;
+}
+
+.menuBaixo .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.menuBaixo .container p {
+    text-align: center;
+    margin: 0.5rem auto;
+    font-weight: 500;
+}
+
+.container-titulo {
+    width: 100%;
+    padding: 20px;
+
+    h3 {
+        font-size: 50px;
+        font-weight: bolder;
+    }
+
+    button {
+        background-color: #0066FF;
+        padding: 5px;
+
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+    }
+
+    & button:hover {
+        background-color: #244679;
+        color: #ffffff;
+    }
+
+    #botao-cursos {
+        width: 110px;
+        font-weight: 500;
+    }
+
+    #botao-inscreva {
+        font-size: 30px;
+        font-weight: 500;
+        width: 250px;
+    }
+
+    h3 {
+        color: #0066FF;
+    }
+}
+
+.section-infos {
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+
+    a {
+        text-decoration: none;
+        color: #000000;
+        width: 400px;
+    }
+
+    a:hover {
+        color: #616161;
+
+        p {
+            color: #616161;
+        }
+
+    }
+
+    .card {
+        width: 400px;
+        margin: 10px;
+        padding: 20px;
+        border: none;
+
+        h4 {
+            color: black;
+            font-weight: 700;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h6 {
+            font-weight: 500;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h7 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 10px;
+        }
+
+        p {
+            color: #0066FF;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px
+        }
+        
+        hr {
+            color: black;
+        }
+
+        a {
+            color: #0066FF;
+        }
+
+        a:hover {
+            color: #616161;
+
+            p {
+                color: #616161;
+            }
+
+        }
+
+    }
+}
+
+.section-saude {
+    justify-content: space-between;
+    background-color: #0066FF;
+    justify-content: space-between;
+    padding: 50px;
+
+    h3 {
+        font-size: 45px;
+        font-weight: bolder;
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+        color: #ffffff;
+        width: 400px;
+
+    }
+
+    a:hover {
+        color: #cccccc;
+    }
+
+    .card {
+        width: 500px;
+        margin: 10px;
+        padding: 10px;
+        border: none;
+        background-color: #0066FF;
+
+        h4 {
+            font-weight: 700;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h6 {
+            font-weight: 500;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h7 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 10px;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px
+        }
+    }
+}
+
+.section-engenharia {
+    justify-content: space-between;
+    justify-content: space-between;
+    padding: 50px;
+
+    h3 {
+        font-size: 45px;
+        font-weight: bolder;
+        color: #0066FF;
+    }
+
+    a {
+        text-decoration: none;
+        color: #0066FF;
+        width: 400px;
+
+    }
+
+    a:hover {
+        color: #000000;
+    }
+
+    .card {
+        width: 400px;
+        margin: 10px;
+        padding: 10px;
+        border: none;
+
+        h4 {
+            font-weight: 700;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h6 {
+            font-weight: 500;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h7 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 10px;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px
+        }
+    }
+}
+
+.section-tec {
+    background-color: #1F1F1F;
+    justify-content: space-between;
+    justify-content: space-between;
+    padding: 50px;
+
+    h3 {
+        font-size: 45px;
+        font-weight: bolder;
+        color: #ffffff;
+    }
+
+    a {
+        text-decoration: none;
+        color: #ffffff;
+        width: 400px;
+
+    }
+
+    a:hover {
+        color: #cccccc;
+    }
+
+    .card {
+        width: 400px;
+        margin: 10px;
+        padding: 10px;
+        border: none;
+        background-color: #1F1F1F;
+
+        h4 {
+            font-weight: 700;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h6 {
+            font-weight: 500;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h7 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 10px;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px
+        }
+    }
+}
+
+.section-arq {
+    justify-content: space-between;
+    padding: 50px;
+    justify-self: center;
+
+    h3 {
+        font-size: 45px;
+        font-weight: bolder;
+        color: #0066FF;
+    }
+
+    a {
+        width: 400px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        text-decoration: none;
+        color: #0066FF;
+        width: 400px;
+
+    }
+
+    a:hover {
+        color: #000000;
+    }
+
+    .card {
+        width: 400px;
+        margin: 10px;
+        padding: 10px;
+        border: none;
+
+
+        h4 {
+            font-weight: 700;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h6 {
+            font-weight: 500;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h7 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 10px;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px
+        }
+    }
+
+    img {
+        width: 500px;
+        height: 300px;
+    }
+}
