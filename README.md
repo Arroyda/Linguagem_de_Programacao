@@ -11,7 +11,7 @@ Este projeto foi pedido a utilização de JavaScript, sendo 10 Tarefas proposta 
 De que coisas você precisa para instalar o software e como instalá-lo?
 
 ```
-IDE Java (Exemplo: Visual Studio Code)
+IDE HTML (Exemplo: Visual Studio Code)
 ```
 
 ### 🔧 Instalação
@@ -20,14 +20,35 @@ IDE Java (Exemplo: Visual Studio Code)
 
 ## 🛠️ Construído com
 
-Ferramentas utilizadas e bibliotecas
+Ferramentas utilizadas, bibliotecas e Linguagens de Programação:
 
-* IDE Visual Studio Code
+* IDE: Visual Studio Code
+* Linguagens: HTML, CSS e JavaScript
 
 ## 📌 Versão
 
-* **Versão 1.0** - Inicio do Projeto. *18/02/2025*
-* **Versão 1.1** - Atualizações ReadMe e Finalização do Projeto *18/02/2025*
+* **Versão 1.0** - Criação do Repositório. *18/02/2025*
+* **Versão 1.1** - Início do Exercicio 01 *18/02/2025*
+* **Versão 1.2** - Update ReadMe *18/02/2025*
+* **Versão 1.3** - Finalização Exercicio 01 *18/02/2025*
+* **Versão 1.4** - Início do Exercicio 02 *25/02/2025*
+* **Versão 1.5** - Finalização do Exercicio 02 e Início do Exercicio 03 *25/02/2025*
+* **Versão 1.6** - Finalização Exercicio 03 *26/02/2025*
+* **Versão 1.7** - Início e Finalização do Exercicio 04 *18/03/2025*
+* **Versão 1.8** - Início do Exercicio 05 *25/03/2025*
+* **Versão 1.9** - Update do Exercicio 03 *25/03/2025*
+* **Versão 1.10** - Update do Exercicio 05 *25/03/2025*
+* **Versão 1.11** - Início e Finalização do Exercicio 06 *01/04/2025*
+* **Versão 1.12** - Início e Finalização do Exercicio 07 *08/04/2025*
+* **Versão 1.13** - Início e Finalização do Exercicio 08 *15/04/2025*
+* **Versão 1.14** - Início e Finalização do Exercicio 09 *23/04/2025*
+* **Versão 1.15** - Update do Exercicio 08 *23/04/2025*
+* **Versão 1.16** - Update do Exercicio 09 e Início e Finalização do Exercicio 10 *29/04/2025*
+* **Versão 1.17** - Realização da Prova 01 *29/04/2025*
+* **Versão 1.18** - Início do Exercicio 11 *15/05/2025*
+* **Versão 1.19** - Update do Exercicio 11 *16/05/2025*
+* **Versão 1.19** - Finalização do Exercicio 11 *20/05/2025*
+* **Versão 1.20** - Update ReadMe *20/05/2025*
 
 ## ✒️ Autores
 
