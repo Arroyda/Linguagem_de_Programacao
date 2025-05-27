@@ -49,6 +49,7 @@ Ferramentas utilizadas, bibliotecas e Linguagens de Programação:
 * **Versão 1.19** - Update do Exercicio 11 *16/05/2025*
 * **Versão 1.19** - Finalização do Exercicio 11 *20/05/2025*
 * **Versão 1.20** - Update ReadMe *20/05/2025*
+* **Versão 1.21** - Update ReadMe e Exercicio 11 *20/05/2025*
 
 ## ✒️ Autores
 
